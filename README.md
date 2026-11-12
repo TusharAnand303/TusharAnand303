@@ -1,86 +1,70 @@
-<!-- Profile README for github.com/TusharAnand303 -->
+<!-- GitHub profile README — github.com/TusharAnand303 -->
 
-<div align="center">
-  <img width="100%" alt="Tushar Anand — Full-Stack Software Developer" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:06B6D4&height=220&section=header&text=TUSHAR%20ANAND&fontSize=48&fontColor=FFFFFF&fontAlignY=39&desc=Full-Stack%20Software%20Developer%20%7C%20Web%20Platforms%20%26%20APIs&descAlignY=62&descSize=18" />
+<h1 align="center">Tushar Anand</h1>
 
-  <p><strong>Building reliable digital products — from intuitive interfaces to scalable backends.</strong></p>
-  <p>
-    <a href="https://itstushar.in"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-itstushar.in-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-    <a href="https://github.com/TusharAnand303?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/Explore-My%20Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://github.com/TusharAnand303"><img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-TusharAnand303-1F2937?style=for-the-badge&logo=github&logoColor=white" /></a>
-  </p>
-</div>
+<p align="center"><strong>Full-Stack Software Developer · 6+ years of experience</strong></p>
 
-## 👋 About me
-
-I'm **Tushar Anand**, a full-stack software developer based in **India** with **6+ years of experience** building and maintaining web applications, APIs, content management systems, and digital services.
-
-My work spans **React, Angular, Node.js, TypeScript, PHP/Laravel, and PostgreSQL**. I enjoy solving real-world problems across the full product lifecycle: architecture, development, integrations, deployment, troubleshooting, and performance.
-
-- 🏛️ Experience working on **public-facing digital services** and enterprise web applications.
-- ⚙️ Focused on **robust APIs, maintainable backend systems, and usable frontends**.
-- 🖥️ Comfortable with **Linux, Apache, Git, PostgreSQL, and production deployments**.
-- 🌍 Interested in **full-time remote software engineering opportunities**.
-
-## 🧰 Technical toolkit
-
-**Languages & frontend**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,angular,html,css&perline=6" alt="TypeScript, JavaScript, React, Angular, HTML and CSS" />
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3200&pause=1700&color=58A6FF&center=true&vCenter=true&width=650&height=35&lines=Building+reliable+web+platforms;React+%C2%B7+Angular+%C2%B7+Node.js+%C2%B7+Laravel;From+idea+to+production"
+    alt="Animated introduction: Building reliable web platforms; React, Angular, Node.js, Laravel; From idea to production"
+  />
 </p>
 
-**Backend & data**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,php,laravel,postgres,mysql&perline=5" alt="Node.js, PHP, Laravel, PostgreSQL and MySQL" />
+<p align="center">
+  <a href="https://itstushar.in/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://github.com/TusharAnand303?tab=repositories">Projects</a> &nbsp;·&nbsp;
+  <a href="https://github.com/TusharAnand303">GitHub</a>
 </p>
 
-**Tools & infrastructure**
+---
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode&perline=4" alt="Git, GitHub, Linux and Visual Studio Code" />
-</p>
+### Contribution activity
 
-`REST APIs` · `React Native` · `Apache HTTP Server` · `Application Deployment` · `Database Design` · `Troubleshooting`
+<!-- Live graph for the last 31 days, automatically refreshed by the image provider. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=TusharAnand303&theme=github-dark&hide_border=true&area=true&height=260&days=31" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=TusharAnand303&theme=github-light&hide_border=true&area=true&height=260&days=31" />
+  <img width="100%" alt="Live chart of Tushar Anand's recent public GitHub contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=TusharAnand303&theme=github-dark&hide_border=true&area=true&height=260&days=31" />
+</picture>
 
-## 🚀 Selected work
+<sub>Live public GitHub contribution activity over the last 31 days. Contributions may include more than commits, and the chart may be cached.</sub>
 
-### 🛡️ [api-payload-guard](https://github.com/TusharAnand303/api-payload-guard)
+### About
 
-A **dependency-free TypeScript utility** for validating incoming API payloads. Helps identify missing fields, unexpected properties, and invalid data types before requests reach application logic.
+I build and maintain production-ready web applications, APIs, and CMS platforms. My experience covers frontend development, backend architecture, database design, integrations, and Linux-based deployment.
 
-**Stack:** TypeScript · Node.js · API Validation
+My focus is **reliable systems, maintainable code, and products that solve real problems**.
 
-### 🏛️ Digital public services *(professional experience)*
+- Working with web platforms and digital public services.
+- Comfortable across frontend, backend, databases, and infrastructure.
+- Open to **full-time remote software engineering opportunities**.
 
-Worked on web platforms and online services involving **Laravel/PHP applications, CMS workflows, database-backed features, integrations, and production infrastructure**.
+### Stack
 
-- **[High Court of Jharkhand](https://jharkhandhighcourt.nic.in/)** — web and content management platform work.
-- **[Online Certified Copy portal](https://occ.jhc.gov.in/)** — digital service workflows and API integrations.
+**Frontend:** React · Angular · TypeScript · JavaScript · HTML/CSS · React Native  
+**Backend:** Node.js · PHP · Laravel · REST APIs  
+**Data:** PostgreSQL · MySQL  
+**Infrastructure:** Linux · Apache · Git · GitHub
 
-> The public-service platforms above are professional work examples, not claims that their source code is open-source or hosted in my personal GitHub account.
+### Selected work
 
-## 📊 GitHub at a glance
+**[API Payload Guard](https://github.com/TusharAnand303/api-payload-guard)**  
+TypeScript utility for validating incoming API payloads and improving request safety.
 
-<div align="center">
-  <a href="https://github.com/TusharAnand303">
-    <img height="165" alt="Tushar's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=TusharAnand303&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true" />
-  </a>
-  <a href="https://github.com/TusharAnand303?tab=repositories">
-    <img height="165" alt="Most used languages in public GitHub repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TusharAnand303&layout=compact&hide_border=true&theme=github_dark&langs_count=6" />
-  </a>
-</div>
+**Digital public-service platforms**  
+Professional experience with content management, online services, Laravel/PHP systems, API integrations, and production deployments. Some projects are not open source.
 
-<sub>Statistics are generated by a third-party service from public GitHub activity and may not reflect private or professional work.</sub>
+### GitHub overview
 
-## 🤝 Let's connect
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=TusharAnand303&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&rank_icon=github" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=TusharAnand303&show_icons=true&include_all_commits=true&hide_border=true&theme=default&rank_icon=github" />
+  <img height="165" alt="Live GitHub statistics for Tushar Anand" src="https://github-readme-stats.vercel.app/api?username=TusharAnand303&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark&rank_icon=github" />
+</picture>
 
-I'm always interested in thoughtful engineering discussions, useful open-source tools, and opportunities to build products that make a difference.
+<sub>Statistics are generated from available GitHub data and may not include private or employer-owned repositories. Third-party services can occasionally be unavailable.</sub>
 
-- 🌐 **Portfolio:** [itstushar.in](https://itstushar.in/)
-- 💻 **GitHub:** [github.com/TusharAnand303](https://github.com/TusharAnand303)
+---
 
-<div align="center">
-  <sub>Build with care. Keep learning. Ship things that matter.</sub>
-</div>
+<p align="center"><a href="https://itstushar.in/">itstushar.in</a> · <a href="https://github.com/TusharAnand303?tab=repositories">Explore repositories</a></p>
