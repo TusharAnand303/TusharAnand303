@@ -1,0 +1,45 @@
+name: Refresh profile charts
+
+on:
+  schedule:
+    - cron: '17 3 * * *' # Daily, ~08:47 India Standard Time; GitHub may delay scheduled jobs
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_profile.py'
+      - '.github/workflows/refresh-profile-charts.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-charts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate SVG graphs from GitHub contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: TusharAnand303
+        run: python scripts/update_profile.py
+      - name: Commit any updated SVGs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/activity.svg assets/calendar.svg assets/stats.svg assets/languages.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh GitHub profile charts'
+            git push
+          else
+            echo 'No chart changes.'
+          fi
